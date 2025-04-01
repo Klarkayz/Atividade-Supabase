@@ -69,13 +69,14 @@ body {
 }
 
 .botao {
+    font-family: 'Montserrat', sans-serif;
     background-color: #d42290;
     color: #fff;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     border: none;
-    height: 40px;
-    border-radius: 4px;
+    height: 45px;
+    border-radius: 7px;
     transition: all linear 200ms;
     cursor: pointer;
     margin: 0;
