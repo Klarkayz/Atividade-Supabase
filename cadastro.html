@@ -10,7 +10,7 @@
 <body>
     <div class="caixa">
     <form class="formulario" onsubmit="return false;">
-        <h2>Login</h2>
+        <h2>Login Supabase</h2>
         <label for="email">E-MAIL</label>
         <input type="email" id="email" placeholder="Digite seu email" required>
         <label for="password">SENHA</label>
@@ -49,7 +49,7 @@
                 document.getElementById("mensagem").innerText = "Login realizado com sucesso!";
                 localStorage.setItem("usuarioEmail", email);
                 setTimeout(() => {
-                    window.location.href = "bem-vindo.html";
+                    window.location.href = "shopsupabase.html"
                 }, 2000);
             }
         }
